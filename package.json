@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "env-cmd nodemon src/index.js"
+    "dev": "env-cmd nodemon src/index.js",
+    "setup": "env-cmd node prerequisite.js"
   },
   "author": "",
   "license": "ISC",
