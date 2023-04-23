@@ -8,6 +8,9 @@ try {
   if (!MONGODB_URI) {
     throw new Error("Mongodb uri is missing");
   }
-} catch (error) {}
+} catch (error) {
+  console.log(error);
+  process.exit(1);
+}
 
 export { PORT, MONGODB_URI };
