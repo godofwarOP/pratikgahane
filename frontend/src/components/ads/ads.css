@@ -1,0 +1,14 @@
+.ads {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .ads {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

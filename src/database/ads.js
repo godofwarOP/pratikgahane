@@ -3,12 +3,13 @@ import mongoose from "mongoose";
 const AdsSchema = new mongoose.Schema({
   _id: {
     type: Number,
-    required: true,
   },
   companyId: {
     type: Number,
     ref: "companies",
-    required: true,
+  },
+  headline: {
+    type: String,
   },
   primaryText: {
     type: String,
@@ -26,6 +27,8 @@ const AdsSchema = new mongoose.Schema({
     required: true,
   },
 });
+
+AdsSchema.index({ primaryText: "text", headline: "text", description: "text" });
 
 const AdsModel = mongoose.model("ads", AdsSchema);
 

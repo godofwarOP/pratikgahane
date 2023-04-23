@@ -1,0 +1,15 @@
+.app {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .app {
+    width: 100%;
+  }
+}

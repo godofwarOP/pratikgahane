@@ -69,8 +69,7 @@ const adsData = [
     headline: "Salesforce for Small Business",
     description: "",
     cta: "Sign Up",
-    imageUrl:
-      "https://drive.google.com/file/d/17huYmoSHdbgcNqfoO4yYYGIFf8X1243T/view?usp=sharing",
+    imageUrl: "http://localhost:3000/salesforce.jpg",
   },
   {
     _id: 2,
@@ -79,8 +78,7 @@ const adsData = [
     headline: "Relaxed Fit Men's Jeans",
     description: "",
     cta: "Shop Now",
-    imageUrl:
-      "https://drive.google.com/file/d/17kQiqGnkLEZZmnzLlWG7ZIlN6XbwAVfb/view?usp=sharing",
+    imageUrl: "http://localhost:3000/levis.jpg",
   },
   {
     _id: 3,
@@ -90,7 +88,7 @@ const adsData = [
     headline: "Made With Recycled Plastic",
     description: "Shop Back to School",
     cta: "Shop Now",
-    imageUrl: "https://drive.google.com/open?id=17nXWIFT-",
+    imageUrl: "http://localhost:3000/cotopaxi.jpg",
   },
   {
     _id: 4,
@@ -101,8 +99,7 @@ const adsData = [
       "Norm Macdonald's Nothing Special gives one last dose of the late comic",
     description: "",
     cta: "Learn More",
-    imageUrl:
-      "https://drive.google.com/file/d/17o3sgN_A6GKPwgZsEpneBYODhRs9tKga/view?usp=sharing",
+    imageUrl: "http://localhost:3000/normMacdonald.jpg",
   },
   {
     _id: 5,
@@ -111,8 +108,7 @@ const adsData = [
     headline: "Valentino Hexagonal Metal Frame With Crystal Studs",
     description: "",
     cta: "Shop Now",
-    imageUrl:
-      "https://drive.google.com/file/d/17sz2UuPNcoHXz-U27EYcwmhkI1ZQUmPZ/view?usp=sharing",
+    imageUrl: "http://localhost:3000/valentino.jpg",
   },
   {
     _id: 6,
@@ -122,8 +118,7 @@ const adsData = [
     headline: "Cooler Summers Start Here",
     description: "Shop Purple products, designed to help you sleep cool.",
     cta: "Shop Now",
-    imageUrl:
-      "https://drive.google.com/file/d/17vrlQMchymHqlN35p4os23jYqQjFiUNq/view?usp=sharing",
+    imageUrl: "http://localhost:3000/purple-display-ads.jpg",
   },
   {
     _id: 7,
@@ -134,8 +129,7 @@ const adsData = [
     description:
       "Personalized skincare for dark spots, acne, and more. Results may vary.",
     cta: "Order Now",
-    imageUrl:
-      "https://drive.google.com/file/d/17vzdu8jSulXgzk9rkJaHP7W1940pQaAV/view?usp=sharing",
+    imageUrl: "http://localhost:3000/curology.jpg",
   },
 ];
 

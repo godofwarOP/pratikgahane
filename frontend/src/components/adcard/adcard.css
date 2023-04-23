@@ -1,0 +1,49 @@
+.adcard {
+  padding: 1rem;
+  box-shadow: 0px 0px 2px 1px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+.image img {
+  width: 100%;
+  height: 300px;
+}
+
+.headline h1 {
+  font-size: 1.15rem;
+}
+
+.link {
+  border-top: 2px solid gray;
+  margin-top: 1rem;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link a {
+  background-color: gray;
+  color: white;
+  padding: 0.1rem 0.5rem;
+  border-radius: 2px;
+}
+
+.link p {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .adcard {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .image img {
+    width: 100%;
+    height: 100px;
+  }
+}
